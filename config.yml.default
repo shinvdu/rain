@@ -1,0 +1,13 @@
+environment: production
+chdir: /home/tian/weixin-tian
+address: 127.0.0.1
+user: tian
+group: tian
+port: 4567
+pid: /home/tian/weixin-tian/log/thin.pid
+rackup: /home/tian/weixin-tian/config.ru
+log: /home/tian/weixin-tian/log/thin.log
+max_conns: 1024
+timeout: 30
+max_persistent_conns: 512
+daemonize: true
